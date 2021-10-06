@@ -5,7 +5,7 @@
 int main(int argc, char *argv[])
 {
     char password[101];
-    char strictness = argv[1][0];
+    char strictness[] = argv[1];
     char parameter = argv[2][0];
     if (argc > 2)
     {
